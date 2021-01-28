@@ -3,6 +3,6 @@
 Replicating PLEX login screen to support landscape.
 
 
-![Portrait](https://imgur.com/4wPnhmB)
+![Portrait](https://imgur.com/4wPnhmB.jpg)
 
-![Landscape](https://imgur.com/ml956ax)
+![Landscape](https://imgur.com/ml956ax.jpg)
