@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOS_Exercise_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="397" affinity="minX"/>
+                        </userGuides>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHY-8F-cqz">
+                                <rect key="frame" x="183" y="294.5" width="556" height="81.5"/>
+                                <string key="text">By creating an account or continuing to use a Plex application, website, or software, you acknowledge and agree that you have accepted the Terms of services and have reviwed the privacy policy.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-hQ-hsH">
+                                <rect key="frame" x="345" y="115.5" width="232" height="156"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evt-K6-6p8">
+                                        <rect key="frame" x="0.0" y="0.0" width="232" height="33"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Siz-S1-Nh2"/>
+                                            <constraint firstAttribute="width" constant="280" id="jSg-oq-mDk"/>
+                                        </constraints>
+                                        <state key="normal" title=" Continue With Apple" image="Icon-29">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <mask key="constraints">
+                                                <exclude reference="Siz-S1-Nh2"/>
+                                                <exclude reference="jSg-oq-mDk"/>
+                                            </mask>
+                                        </variation>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxF-km-yye">
+                                        <rect key="frame" x="0.0" y="41" width="232" height="33"/>
+                                        <color key="backgroundColor" red="0.25490196078431371" green="0.34901960784313724" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title=" Continue With Facebook" image="29">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXg-GA-Ub4">
+                                        <rect key="frame" x="0.0" y="82" width="232" height="33"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Continue With Google" image="29-1">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y84-aF-Rmh">
+                                        <rect key="frame" x="0.0" y="123" width="232" height="33"/>
+                                        <color key="backgroundColor" red="0.76078431372549016" green="0.49411764705882355" blue="0.19215686274509802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title=" Continue With Email" image="29-4">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plex" translatesAutoresizingMaskIntoConstraints="NO" id="5i5-qG-Ezp">
+                                <rect key="frame" x="123" y="115" width="182" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="dtC-t7-5nT"/>
+                                    <constraint firstAttribute="height" constant="120" id="eV4-7O-emX"/>
+                                    <constraint firstAttribute="width" constant="182" id="mfl-36-ceI"/>
+                                    <constraint firstAttribute="height" constant="120" id="ya5-S1-NZJ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mfl-36-ceI"/>
+                                        <exclude reference="ya5-S1-NZJ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="dtC-t7-5nT"/>
+                                        <exclude reference="eV4-7O-emX"/>
+                                        <include reference="mfl-36-ceI"/>
+                                        <include reference="ya5-S1-NZJ"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQb-gV-IT4">
+                                <rect key="frame" x="628" y="148" width="89" height="30"/>
+                                <state key="normal" title="Why Sign In?">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FQb-gV-IT4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="346-pA-aGo"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115.5" id="6Zy-jM-VbD"/>
+                            <constraint firstItem="FQb-gV-IT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="D4G-wD-VRn"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="301" id="D5f-3h-ScR"/>
+                            <constraint firstItem="5i5-qG-Ezp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="DoN-GE-LgN"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="top" secondItem="5i5-qG-Ezp" secondAttribute="bottom" constant="121" id="HIg-Pp-d7g">
+                                <variation key="heightClass=regular-widthClass=compact" constant="90"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5i5-qG-Ezp" secondAttribute="trailing" constant="54" id="Iz1-sC-soL"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="leading" secondItem="5i5-qG-Ezp" secondAttribute="trailing" constant="40" id="JXe-ti-Yid"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fh5-hQ-hsH" secondAttribute="trailing" constant="275" id="OBP-L1-IOM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FQb-gV-IT4" secondAttribute="trailing" constant="119" id="PJL-pg-UxP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5i5-qG-Ezp" secondAttribute="trailing" constant="34" id="PlI-ez-2NO"/>
+                            <constraint firstItem="FQb-gV-IT4" firstAttribute="top" secondItem="bHY-8F-cqz" secondAttribute="bottom" constant="3.5" id="Qi4-vt-Dgy"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RL8-xJ-0gT"/>
+                            <constraint firstItem="5i5-qG-Ezp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="XHU-B3-OoR"/>
+                            <constraint firstItem="bHY-8F-cqz" firstAttribute="top" secondItem="Fh5-hQ-hsH" secondAttribute="bottom" constant="20" id="Xqg-hd-Pbx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bHY-8F-cqz" secondAttribute="bottom" constant="17" id="ZgO-VL-e5i"/>
+                            <constraint firstItem="bHY-8F-cqz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="Zx6-K1-en9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bHY-8F-cqz" secondAttribute="trailing" constant="113" id="g0X-ne-yFu"/>
+                            <constraint firstItem="Fh5-hQ-hsH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ihF-Tv-AYN"/>
+                            <constraint firstItem="FQb-gV-IT4" firstAttribute="leading" secondItem="Fh5-hQ-hsH" secondAttribute="trailing" constant="51" id="luw-Oj-XAV"/>
+                            <constraint firstItem="bHY-8F-cqz" firstAttribute="top" secondItem="Fh5-hQ-hsH" secondAttribute="bottom" constant="23" id="nOp-GV-iv1"/>
+                            <constraint firstItem="bHY-8F-cqz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="sep-aP-Hp0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bHY-8F-cqz" secondAttribute="trailing" constant="38" id="wXI-Mw-Avp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Iz1-sC-soL"/>
+                                <exclude reference="OBP-L1-IOM"/>
+                                <exclude reference="ZgO-VL-e5i"/>
+                                <exclude reference="g0X-ne-yFu"/>
+                                <exclude reference="XHU-B3-OoR"/>
+                                <exclude reference="6Zy-jM-VbD"/>
+                                <exclude reference="D5f-3h-ScR"/>
+                                <exclude reference="HIg-Pp-d7g"/>
+                                <exclude reference="JXe-ti-Yid"/>
+                                <exclude reference="Zx6-K1-en9"/>
+                                <exclude reference="nOp-GV-iv1"/>
+                                <exclude reference="346-pA-aGo"/>
+                                <exclude reference="luw-Oj-XAV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="OBP-L1-IOM"/>
+                                <exclude reference="PJL-pg-UxP"/>
+                                <include reference="ZgO-VL-e5i"/>
+                                <include reference="g0X-ne-yFu"/>
+                                <exclude reference="wXI-Mw-Avp"/>
+                                <exclude reference="DoN-GE-LgN"/>
+                                <exclude reference="PlI-ez-2NO"/>
+                                <include reference="XHU-B3-OoR"/>
+                                <include reference="6Zy-jM-VbD"/>
+                                <include reference="D5f-3h-ScR"/>
+                                <include reference="JXe-ti-Yid"/>
+                                <exclude reference="RL8-xJ-0gT"/>
+                                <exclude reference="ihF-Tv-AYN"/>
+                                <exclude reference="Xqg-hd-Pbx"/>
+                                <include reference="Zx6-K1-en9"/>
+                                <include reference="nOp-GV-iv1"/>
+                                <exclude reference="sep-aP-Hp0"/>
+                                <include reference="346-pA-aGo"/>
+                                <exclude reference="D4G-wD-VRn"/>
+                                <exclude reference="Qi4-vt-Dgy"/>
+                                <include reference="luw-Oj-XAV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Iz1-sC-soL"/>
+                                <include reference="HIg-Pp-d7g"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1306.4732142857142" y="100.00000000000001"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="29" width="29" height="29"/>
+        <image name="29-1" width="29" height="29"/>
+        <image name="29-4" width="29" height="29"/>
+        <image name="Icon-29" width="29" height="33"/>
+        <image name="plex" width="256" height="256"/>
+    </resources>
+</document>
